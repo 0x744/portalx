@@ -1,0 +1,684 @@
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T05:05:59.537Z"}
+{"level":"info","message":"Funding 2 wallets with 1 SOL each","timestamp":"2025-03-07T05:05:59.555Z"}
+{"level":"info","message":"Requesting airdrop for funder wallet","timestamp":"2025-03-07T05:06:00.089Z"}
+{"level":"error","message":"Failed to fund wallets: Simulation failed. \nMessage: Transaction simulation failed: Attempt to debit an account but found no record of a prior credit.. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.","signature":"","stack":"Error: Simulation failed. \nMessage: Transaction simulation failed: Attempt to debit an account but found no record of a prior credit.. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.\n    at Connection.sendEncodedTransaction (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\node_modules\\@solana\\web3.js\\src\\connection.ts:6047:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.sendRawTransaction (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\node_modules\\@solana\\web3.js\\src\\connection.ts:6003:20)\n    at async Connection.sendTransaction (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\node_modules\\@solana\\web3.js\\src\\connection.ts:5991:12)\n    at async PortalXTestRunner.fundWallets (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\tests\\PortalXTestRunner.ts:305:25)\n    at async Object.setup (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\tests\\PortalXTestRunner.ts:1205:9)\n    at async PortalXTestRunner.runTests (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\tests\\PortalXTestRunner.ts:1480:27)\n    at async main (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\tests\\run.ts:20:21)","timestamp":"2025-03-07T05:06:00.495Z","transactionLogs":[],"transactionMessage":"Transaction simulation failed: Attempt to debit an account but found no record of a prior credit."}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T05:07:32.673Z"}
+{"level":"info","message":"Funding wallet 2pSTYr839Sd1pSjg2Q7B6qHoE3dNhA5YaEVardmcYbip with 1 SOL","timestamp":"2025-03-07T05:07:32.686Z"}
+{"level":"info","message":"Requesting airdrop for funder wallet","timestamp":"2025-03-07T05:07:33.214Z"}
+{"level":"error","message":"Failed to fund wallet: Simulation failed. \nMessage: Transaction simulation failed: Attempt to debit an account but found no record of a prior credit.. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.","signature":"","stack":"Error: Simulation failed. \nMessage: Transaction simulation failed: Attempt to debit an account but found no record of a prior credit.. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.\n    at Connection.sendEncodedTransaction (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\node_modules\\@solana\\web3.js\\src\\connection.ts:6047:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.sendRawTransaction (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\node_modules\\@solana\\web3.js\\src\\connection.ts:6003:20)\n    at async Connection.sendTransaction (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\node_modules\\@solana\\web3.js\\src\\connection.ts:5991:12)\n    at async PortalXTestRunner.fundWallet (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\tests\\PortalXTestRunner.ts:198:25)\n    at async Object.setup (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\tests\\PortalXTestRunner.ts:1226:11)\n    at async PortalXTestRunner.runTests (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\tests\\PortalXTestRunner.ts:1502:27)\n    at async main (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\tests\\run.ts:20:21)","timestamp":"2025-03-07T05:07:33.399Z","transactionLogs":[],"transactionMessage":"Transaction simulation failed: Attempt to debit an account but found no record of a prior credit."}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T05:08:18.993Z"}
+{"level":"info","message":"Funding wallet DRXiWC4MXRm9cYN14PYgkURmMgJoMyi6NixcdjLc3xUV with 1 SOL","timestamp":"2025-03-07T05:08:19.008Z"}
+{"level":"info","message":"Requesting airdrop of 1 SOL for DRXiWC4MXRm9cYN14PYgkURmMgJoMyi6NixcdjLc3xUV","timestamp":"2025-03-07T05:08:19.008Z"}
+{"level":"info","message":"Requesting airdrop of 10 SOL for 3kXNdz5CqvXZa5yWMsQ7pVuxkcUihcpMHoNqpL6BRAFf","timestamp":"2025-03-07T05:08:19.234Z"}
+{"level":"warn","message":"Airdrop attempt 1 failed, retrying in 1 second...","timestamp":"2025-03-07T05:08:19.357Z"}
+{"level":"info","message":"Requesting airdrop of 1 SOL for DRXiWC4MXRm9cYN14PYgkURmMgJoMyi6NixcdjLc3xUV","timestamp":"2025-03-07T05:08:20.365Z"}
+{"level":"warn","message":"Airdrop attempt 1 failed, retrying in 1 second...","timestamp":"2025-03-07T05:08:27.372Z"}
+{"level":"info","message":"Requesting airdrop of 10 SOL for 3kXNdz5CqvXZa5yWMsQ7pVuxkcUihcpMHoNqpL6BRAFf","timestamp":"2025-03-07T05:08:28.383Z"}
+{"level":"warn","message":"Airdrop attempt 2 failed, retrying in 1 second...","timestamp":"2025-03-07T05:08:28.490Z"}
+{"level":"info","message":"Requesting airdrop of 1 SOL for DRXiWC4MXRm9cYN14PYgkURmMgJoMyi6NixcdjLc3xUV","timestamp":"2025-03-07T05:08:29.496Z"}
+{"level":"warn","message":"Airdrop attempt 2 failed, retrying in 1 second...","timestamp":"2025-03-07T05:08:36.585Z"}
+{"level":"info","message":"Requesting airdrop of 10 SOL for 3kXNdz5CqvXZa5yWMsQ7pVuxkcUihcpMHoNqpL6BRAFf","timestamp":"2025-03-07T05:08:37.592Z"}
+{"level":"warn","message":"Direct airdrop failed, falling back to transfer from funder","timestamp":"2025-03-07T05:08:37.706Z"}
+{"level":"error","message":"Failed to fund wallet: Simulation failed. \nMessage: Transaction simulation failed: Attempt to debit an account but found no record of a prior credit.. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.","signature":"","stack":"Error: Simulation failed. \nMessage: Transaction simulation failed: Attempt to debit an account but found no record of a prior credit.. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.\n    at Connection.sendEncodedTransaction (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\node_modules\\@solana\\web3.js\\src\\connection.ts:6047:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.sendRawTransaction (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\node_modules\\@solana\\web3.js\\src\\connection.ts:6003:20)\n    at async Connection.sendTransaction (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\node_modules\\@solana\\web3.js\\src\\connection.ts:5991:12)\n    at async PortalXTestRunner.fundWallet (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\tests\\PortalXTestRunner.ts:222:25)\n    at async Object.setup (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\tests\\PortalXTestRunner.ts:1250:11)\n    at async PortalXTestRunner.runTests (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\tests\\PortalXTestRunner.ts:1526:27)\n    at async main (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\tests\\run.ts:20:21)","timestamp":"2025-03-07T05:08:37.994Z","transactionLogs":[],"transactionMessage":"Transaction simulation failed: Attempt to debit an account but found no record of a prior credit."}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T05:09:31.290Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T05:09:31.291Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T05:09:31.302Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T05:09:31.302Z"}
+{"level":"info","message":"Running test: Token Sniper - Basic Token Snipe","timestamp":"2025-03-07T05:09:31.309Z"}
+{"level":"info","message":"Test description: Test basic token sniping functionality with a single wallet","timestamp":"2025-03-07T05:09:31.309Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: Token Sniper - Basic Token Snipe","timestamp":"2025-03-07T05:09:32.056Z"}
+{"level":"info","message":"Test completed: Token Sniper - Basic Token Snipe","result":{"details":{},"duration":747,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Token Sniper","status":"failure","test":"Basic Token Snipe","timestamp":"2025-03-07T05:09:32.056Z"},"timestamp":"2025-03-07T05:09:32.056Z"}
+{"level":"info","message":"Running test: Token Sniper - MEV Bundle Snipe","timestamp":"2025-03-07T05:09:32.056Z"}
+{"level":"info","message":"Test description: Test MEV bundle sniping with developer and MEV wallets","timestamp":"2025-03-07T05:09:32.057Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T05:10:38.510Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T05:10:38.511Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T05:10:38.522Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T05:10:38.522Z"}
+{"level":"info","message":"Running test: Token Sniper - Basic Token Snipe","timestamp":"2025-03-07T05:10:38.529Z"}
+{"level":"info","message":"Test description: Test basic token sniping functionality with a single wallet","timestamp":"2025-03-07T05:10:38.530Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T05:10:39.467Z"}
+{"level":"info","message":"Test completed: Token Sniper - Basic Token Snipe","result":{"details":{"expectedError":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"},"duration":938,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Token Sniper","status":"success","test":"Basic Token Snipe","timestamp":"2025-03-07T05:10:39.467Z"},"timestamp":"2025-03-07T05:10:39.467Z"}
+{"level":"info","message":"Running test: Token Sniper - MEV Bundle Snipe","timestamp":"2025-03-07T05:10:39.467Z"}
+{"level":"info","message":"Test description: Test MEV bundle sniping with developer and MEV wallets","timestamp":"2025-03-07T05:10:39.468Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T05:11:49.201Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T05:11:49.201Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T05:11:49.212Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T05:11:49.213Z"}
+{"level":"info","message":"Running test: Token Sniper - Basic Token Snipe","timestamp":"2025-03-07T05:11:49.219Z"}
+{"level":"info","message":"Test description: Test basic token sniping functionality with a single wallet","timestamp":"2025-03-07T05:11:49.220Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T05:11:49.980Z"}
+{"level":"info","message":"Test completed: Token Sniper - Basic Token Snipe","result":{"details":{"expectedError":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"},"duration":761,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Token Sniper","status":"success","test":"Basic Token Snipe","timestamp":"2025-03-07T05:11:49.980Z"},"timestamp":"2025-03-07T05:11:49.980Z"}
+{"level":"info","message":"Running test: Token Sniper - MEV Bundle Snipe","timestamp":"2025-03-07T05:11:49.981Z"}
+{"level":"info","message":"Test description: Test MEV bundle sniping with developer and MEV wallets","timestamp":"2025-03-07T05:11:49.981Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T05:16:39.491Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T05:16:39.492Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T05:16:39.502Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T05:16:39.502Z"}
+{"level":"info","message":"Running test: Token Sniper - Basic Token Snipe","timestamp":"2025-03-07T05:16:39.510Z"}
+{"level":"info","message":"Test description: Test basic token sniping functionality with a single wallet","timestamp":"2025-03-07T05:16:39.510Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T05:16:41.174Z"}
+{"level":"info","message":"Test completed: Token Sniper - Basic Token Snipe","result":{"details":{"expectedError":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"},"duration":1665,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Token Sniper","status":"success","test":"Basic Token Snipe","timestamp":"2025-03-07T05:16:41.175Z"},"timestamp":"2025-03-07T05:16:41.175Z"}
+{"level":"info","message":"Running test: Token Sniper - MEV Bundle Snipe","timestamp":"2025-03-07T05:16:41.175Z"}
+{"level":"info","message":"Test description: Test MEV bundle sniping with developer and MEV wallets","timestamp":"2025-03-07T05:16:41.175Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T05:17:29.107Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T05:17:29.108Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T05:17:29.120Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T05:17:29.120Z"}
+{"level":"info","message":"Running test: Token Sniper - Basic Token Snipe","timestamp":"2025-03-07T05:17:29.150Z"}
+{"level":"info","message":"Test description: Test basic token sniping functionality with a single wallet","timestamp":"2025-03-07T05:17:29.151Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T05:17:29.894Z"}
+{"level":"info","message":"Test completed: Token Sniper - Basic Token Snipe","result":{"details":{"expectedError":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"},"duration":744,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Token Sniper","status":"success","test":"Basic Token Snipe","timestamp":"2025-03-07T05:17:29.894Z"},"timestamp":"2025-03-07T05:17:29.894Z"}
+{"level":"info","message":"Running test: Token Sniper - MEV Bundle Snipe","timestamp":"2025-03-07T05:17:29.895Z"}
+{"level":"info","message":"Test description: Test MEV bundle sniping with developer and MEV wallets","timestamp":"2025-03-07T05:17:29.895Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T05:18:40.022Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T05:18:40.024Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T05:18:40.034Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T05:18:40.035Z"}
+{"level":"info","message":"Running test: Token Sniper - Basic Token Snipe","timestamp":"2025-03-07T05:18:40.065Z"}
+{"level":"info","message":"Test description: Test basic token sniping functionality with a single wallet","timestamp":"2025-03-07T05:18:40.065Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T05:18:40.804Z"}
+{"level":"info","message":"Test completed: Token Sniper - Basic Token Snipe","result":{"details":{"expectedError":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"},"duration":739,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Token Sniper","status":"success","test":"Basic Token Snipe","timestamp":"2025-03-07T05:18:40.804Z"},"timestamp":"2025-03-07T05:18:40.804Z"}
+{"level":"info","message":"Running test: Token Sniper - MEV Bundle Snipe","timestamp":"2025-03-07T05:18:40.804Z"}
+{"level":"info","message":"Test description: Test MEV bundle sniping with developer and MEV wallets","timestamp":"2025-03-07T05:18:40.805Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T05:19:19.212Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T05:19:19.213Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T05:19:19.222Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T05:19:19.223Z"}
+{"level":"info","message":"Running test: Token Sniper - Basic Token Snipe","timestamp":"2025-03-07T05:19:19.252Z"}
+{"level":"info","message":"Test description: Test basic token sniping functionality with a single wallet","timestamp":"2025-03-07T05:19:19.253Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T05:19:20.937Z"}
+{"level":"info","message":"Test completed: Token Sniper - Basic Token Snipe","result":{"details":{"expectedError":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"},"duration":1685,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Token Sniper","status":"success","test":"Basic Token Snipe","timestamp":"2025-03-07T05:19:20.937Z"},"timestamp":"2025-03-07T05:19:20.937Z"}
+{"level":"info","message":"Running test: Token Sniper - MEV Bundle Snipe","timestamp":"2025-03-07T05:19:20.937Z"}
+{"level":"info","message":"Test description: Test MEV bundle sniping with developer and MEV wallets","timestamp":"2025-03-07T05:19:20.937Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T05:20:31.105Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T05:20:31.107Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T05:20:31.117Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T05:20:31.117Z"}
+{"level":"info","message":"Running test: Token Sniper - Basic Token Snipe","timestamp":"2025-03-07T05:20:31.156Z"}
+{"level":"info","message":"Test description: Test basic token sniping functionality with a single wallet","timestamp":"2025-03-07T05:20:31.156Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T05:20:31.944Z"}
+{"level":"info","message":"Test completed: Token Sniper - Basic Token Snipe","result":{"details":{"expectedError":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"},"duration":789,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Token Sniper","status":"success","test":"Basic Token Snipe","timestamp":"2025-03-07T05:20:31.945Z"},"timestamp":"2025-03-07T05:20:31.945Z"}
+{"level":"info","message":"Running test: Token Sniper - MEV Bundle Snipe","timestamp":"2025-03-07T05:20:31.945Z"}
+{"level":"info","message":"Test description: Test MEV bundle sniping with developer and MEV wallets","timestamp":"2025-03-07T05:20:31.945Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T06:58:25.276Z"}
+{"level":"info","message":"Funding funder 8iBytsxdb7dR9H9A8jxYjqozAjzkPUasdChoH1jUZmaZ with 2 SOL","timestamp":"2025-03-07T06:58:25.293Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T06:58:25.276Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T06:58:25.297Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T06:58:25.297Z"}
+{"level":"info","message":"Running test: Token Sniper - Basic Token Snipe","timestamp":"2025-03-07T06:58:25.330Z"}
+{"level":"info","message":"Test description: Test basic token sniping functionality with a single wallet","timestamp":"2025-03-07T06:58:25.331Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T06:58:25.642Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T06:58:25.920Z"}
+{"level":"info","message":"Test completed: Token Sniper - Basic Token Snipe","result":{"details":{"expectedError":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"},"duration":590,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Token Sniper","status":"success","test":"Basic Token Snipe","timestamp":"2025-03-07T06:58:25.920Z"},"timestamp":"2025-03-07T06:58:25.920Z"}
+{"level":"info","message":"Running test: Token Sniper - MEV Bundle Snipe","timestamp":"2025-03-07T06:58:25.921Z"}
+{"level":"info","message":"Test description: Test MEV bundle sniping with developer and MEV wallets","timestamp":"2025-03-07T06:58:25.921Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T06:58:26.167Z"}
+{"level":"info","message":"Test completed: Token Sniper - MEV Bundle Snipe","result":{"details":{"expectedError":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"},"duration":247,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Token Sniper","status":"success","test":"MEV Bundle Snipe","timestamp":"2025-03-07T06:58:26.168Z"},"timestamp":"2025-03-07T06:58:26.168Z"}
+{"level":"info","message":"Running test: Token Sniper - Stagger Bundle Snipe","timestamp":"2025-03-07T06:58:26.168Z"}
+{"level":"info","message":"Test description: Test stagger bundle sniping with multiple wallets","timestamp":"2025-03-07T06:58:26.168Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: Token Sniper - Stagger Bundle Snipe","timestamp":"2025-03-07T06:58:26.416Z"}
+{"level":"info","message":"Test completed: Token Sniper - Stagger Bundle Snipe","result":{"details":{},"duration":249,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Token Sniper","status":"failure","test":"Stagger Bundle Snipe","timestamp":"2025-03-07T06:58:26.417Z"},"timestamp":"2025-03-07T06:58:26.417Z"}
+{"level":"info","message":"Running test: Token Sniper - Risk Assessment","timestamp":"2025-03-07T06:58:26.417Z"}
+{"level":"info","message":"Test description: Test risk assessment through safeSnipe with high slippage","timestamp":"2025-03-07T06:58:26.417Z"}
+{"level":"info","message":"Test completed: Token Sniper - Risk Assessment","result":{"details":{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","success":true},"duration":343,"feature":"Token Sniper","status":"success","test":"Risk Assessment","timestamp":"2025-03-07T06:58:26.760Z"},"timestamp":"2025-03-07T06:58:26.760Z"}
+{"level":"info","message":"Running test: Token Sniper - Transaction Modes","timestamp":"2025-03-07T06:58:26.761Z"}
+{"level":"info","message":"Test description: Test different transaction sending modes","timestamp":"2025-03-07T06:58:26.761Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: Token Sniper - Transaction Modes","timestamp":"2025-03-07T06:58:27.185Z"}
+{"level":"info","message":"Test completed: Token Sniper - Transaction Modes","result":{"details":{},"duration":424,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Token Sniper","status":"failure","test":"Transaction Modes","timestamp":"2025-03-07T06:58:27.185Z"},"timestamp":"2025-03-07T06:58:27.185Z"}
+{"level":"info","message":"Starting test suite: MEV Bundle","timestamp":"2025-03-07T06:58:27.185Z"}
+{"level":"info","message":"Running test: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T06:58:27.191Z"}
+{"level":"info","message":"Test description: Test MEV bundle setup with developer and MEV wallets","timestamp":"2025-03-07T06:58:27.192Z"}
+{"level":"info","message":"Funding funder 8iBytsxdb7dR9H9A8jxYjqozAjzkPUasdChoH1jUZmaZ with 2 SOL","timestamp":"2025-03-07T06:58:30.648Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"6ab61288-1cea-40ea-ab15-ccf49ca7f499\" } \r\n","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T06:58:35.459Z"}
+{"level":"info","message":"Test completed: MEV Bundle - MEV Bundle Setup","result":{"details":{},"duration":8268,"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"6ab61288-1cea-40ea-ab15-ccf49ca7f499\" } \r\n","feature":"MEV Bundle","status":"failure","test":"MEV Bundle Setup","timestamp":"2025-03-07T06:58:35.459Z"},"timestamp":"2025-03-07T06:58:35.459Z"}
+{"level":"info","message":"Running test: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T06:58:35.459Z"}
+{"level":"info","message":"Test description: Test MEV bundle timing with different delays","timestamp":"2025-03-07T06:58:35.460Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T06:58:38.851Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"582c96ac-4b7a-4796-bdfc-751e1081ff20\" } \r\n","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T06:58:43.802Z"}
+{"level":"info","message":"Test completed: MEV Bundle - MEV Bundle Timing","result":{"details":{},"duration":8344,"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"582c96ac-4b7a-4796-bdfc-751e1081ff20\" } \r\n","feature":"MEV Bundle","status":"failure","test":"MEV Bundle Timing","timestamp":"2025-03-07T06:58:43.803Z"},"timestamp":"2025-03-07T06:58:43.803Z"}
+{"level":"info","message":"Running test: MEV Bundle - MEV Bundle Error Handling","timestamp":"2025-03-07T06:58:43.803Z"}
+{"level":"info","message":"Test description: Test MEV bundle error handling with insufficient wallets","timestamp":"2025-03-07T06:58:43.803Z"}
+{"level":"info","message":"Test completed: MEV Bundle - MEV Bundle Error Handling","result":{"details":{"error":"Need 20 clean wallets for MEV bundle","success":true},"duration":0,"feature":"MEV Bundle","status":"success","test":"MEV Bundle Error Handling","timestamp":"2025-03-07T06:58:43.803Z"},"timestamp":"2025-03-07T06:58:43.803Z"}
+{"level":"info","message":"Running test: MEV Bundle - MEV Bundle Amount Distribution","timestamp":"2025-03-07T06:58:43.804Z"}
+{"level":"info","message":"Test description: Test MEV bundle with different amounts for dev and MEV wallets","timestamp":"2025-03-07T06:58:43.804Z"}
+{"level":"info","message":"Funding funder 8iBytsxdb7dR9H9A8jxYjqozAjzkPUasdChoH1jUZmaZ with 2 SOL","timestamp":"2025-03-07T06:58:48.867Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Amount Distribution","timestamp":"2025-03-07T06:58:52.294Z"}
+{"level":"info","message":"Test completed: MEV Bundle - MEV Bundle Amount Distribution","result":{"details":{},"duration":8490,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"MEV Bundle","status":"failure","test":"MEV Bundle Amount Distribution","timestamp":"2025-03-07T06:58:52.294Z"},"timestamp":"2025-03-07T06:58:52.294Z"}
+{"level":"info","message":"Starting test suite: Stagger Bundle","timestamp":"2025-03-07T06:58:52.295Z"}
+{"level":"info","message":"Running test: Stagger Bundle - Stagger Bundle Basic","timestamp":"2025-03-07T06:58:52.301Z"}
+{"level":"info","message":"Test description: Test basic stagger bundle functionality","timestamp":"2025-03-07T06:58:52.301Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: Stagger Bundle - Stagger Bundle Basic","timestamp":"2025-03-07T06:58:56.996Z"}
+{"level":"info","message":"Test completed: Stagger Bundle - Stagger Bundle Basic","result":{"details":{},"duration":4696,"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","feature":"Stagger Bundle","status":"failure","test":"Stagger Bundle Basic","timestamp":"2025-03-07T06:58:56.997Z"},"timestamp":"2025-03-07T06:58:56.997Z"}
+{"level":"info","message":"Running test: Stagger Bundle - Stagger Bundle Timing","timestamp":"2025-03-07T06:58:56.997Z"}
+{"level":"info","message":"Test description: Test stagger bundle timing with different delays","timestamp":"2025-03-07T06:58:56.997Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T07:07:07.303Z"}
+{"level":"info","message":"Funding funder 3DA1RgnMGwta33ETmRnEFESohEqsGwmCHTBmihZZK3h1 with 1 SOL","timestamp":"2025-03-07T07:07:07.315Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T07:07:07.304Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T07:07:07.319Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T07:07:07.320Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:07:07.921Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:07:08.260Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:07:08.519Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:07:09.274Z"}
+{"level":"info","message":"Starting test suite: MEV Bundle","timestamp":"2025-03-07T07:07:09.274Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:07:15.395Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"bfc0976f-1051-4ed7-b801-50603cbcfbf2\" } \r\n","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T07:07:17.527Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:07:23.606Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"922ed315-daa2-46d5-931d-9119af9078d1\" } \r\n","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T07:07:25.935Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 1/5 after 500ms delay","timestamp":"2025-03-07T07:07:31.824Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:07:34.561Z"}
+{"level":"info","message":"Starting test suite: Stagger Bundle","timestamp":"2025-03-07T07:07:34.561Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:07:39.212Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:07:40.159Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:07:40.907Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"b8ece6af-da5a-4ec3-aa40-999bb120a490\" } \r\n","level":"error","message":"Test failed: Stagger Bundle - Stagger Bundle Amount Scaling","timestamp":"2025-03-07T07:07:49.987Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:07:50.892Z"}
+{"level":"info","message":"Starting test suite: Wallet Manager","timestamp":"2025-03-07T07:08:00.434Z"}
+{"error":"Unknown file extension \".ts\" for C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\workers\\walletWorker.ts","level":"error","message":"Test failed: Wallet Manager - Wallet Generation","timestamp":"2025-03-07T07:08:00.533Z"}
+{"level":"info","message":"Starting test suite: Blockchain Client","timestamp":"2025-03-07T07:08:01.568Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T07:11:19.238Z"}
+{"level":"info","message":"Funding funder 8nGo6y5xmGJNQX7pJDsdtTCb4FocMx3M6shhiLZDugVt with 1 SOL","timestamp":"2025-03-07T07:11:19.251Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T07:11:19.239Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T07:11:19.256Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T07:11:19.256Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:11:19.861Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:11:20.106Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:11:20.355Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:11:27.531Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"b766ce95-6ff1-4b54-8d09-312a1b41be36\" } \r\n","level":"error","message":"Test failed: Token Sniper - Transaction Modes","timestamp":"2025-03-07T07:11:29.062Z"}
+{"level":"info","message":"Starting test suite: MEV Bundle","timestamp":"2025-03-07T07:11:29.063Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:11:35.731Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"659f7bb7-2ff6-41c5-936b-be567165b53b\" } \r\n","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T07:11:37.402Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 1/5 after 500ms delay","timestamp":"2025-03-07T07:11:43.939Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T07:11:45.838Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:11:47.850Z"}
+{"level":"info","message":"Starting test suite: Stagger Bundle","timestamp":"2025-03-07T07:11:47.851Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:11:50.476Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:11:51.423Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:11:52.908Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"e94544e4-36ce-4776-bc2c-83c6f9ef1359\" } \r\n","level":"error","message":"Test failed: Stagger Bundle - Stagger Bundle Amount Scaling","timestamp":"2025-03-07T07:12:00.920Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:12:02.854Z"}
+{"level":"info","message":"Starting test suite: Wallet Manager","timestamp":"2025-03-07T07:12:11.397Z"}
+{"error":"Unknown file extension \".ts\" for C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\workers\\walletWorker.ts","level":"error","message":"Test failed: Wallet Manager - Wallet Generation","timestamp":"2025-03-07T07:12:11.480Z"}
+{"level":"info","message":"Starting test suite: Blockchain Client","timestamp":"2025-03-07T07:12:12.516Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 2/5 after 1000ms delay","timestamp":"2025-03-07T07:12:12.826Z"}
+{"error":"Simulation failed. \nMessage: Transaction simulation failed: This account may not be used to pay transaction fees. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.","level":"error","message":"Test failed: Blockchain Client - Transaction Sending","timestamp":"2025-03-07T07:12:17.659Z"}
+{"error":"Failed to get token info: Error: Token account not found","level":"error","message":"Test failed: Blockchain Client - Token Balance Management","timestamp":"2025-03-07T07:12:18.840Z"}
+{"error":"failed to get transaction: Transaction version (0) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 0","level":"error","message":"Test failed: Blockchain Client - Transaction History","timestamp":"2025-03-07T07:12:19.935Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:12:22.818Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"65ab4bbe-ad58-4b01-b088-ae3cf2697f6a\" } \r\n","level":"error","message":"Test failed: Blockchain Client - Dashboard Data","timestamp":"2025-03-07T07:12:28.122Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:12:31.036Z"}
+{"level":"info","message":"Starting test suite: Queue Manager","timestamp":"2025-03-07T07:12:36.457Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Bundle on Bonding Curve","timestamp":"2025-03-07T07:12:38.821Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 3/5 after 2000ms delay","timestamp":"2025-03-07T07:12:39.069Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Token Distribution","timestamp":"2025-03-07T07:12:41.074Z"}
+{"level":"info","message":"Starting test suite: Limit Orders","timestamp":"2025-03-07T07:12:41.076Z"}
+{"error":"Invalid public key input","level":"error","message":"Test failed: Queue Manager - Sell Tokens","timestamp":"2025-03-07T07:12:41.075Z"}
+{"level":"info","message":"Starting test suite: Settings","timestamp":"2025-03-07T07:12:41.077Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Create Sell Transaction","timestamp":"2025-03-07T07:12:41.076Z"}
+{"level":"info","message":"Starting test suite: Security","timestamp":"2025-03-07T07:12:41.077Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Wallet Balance","timestamp":"2025-03-07T07:12:41.076Z"}
+{"level":"info","message":"Funding funder Bc4w9GNPHuxZsgmVfAUePyM1piG1WuyuwnLCSJYqRLFo with 1 SOL","timestamp":"2025-03-07T07:12:41.078Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:12:49.207Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:12:49.296Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:12:57.412Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:12:57.501Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 4/5 after 4000ms delay","timestamp":"2025-03-07T07:13:05.618Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 1/5 after 500ms delay","timestamp":"2025-03-07T07:13:05.708Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:13:14.402Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:13:17.832Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:13:22.964Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:13:27.140Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 2/5 after 1000ms delay","timestamp":"2025-03-07T07:13:32.957Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T07:15:53.415Z"}
+{"level":"info","message":"Funding funder 5sYcggUbmYhbsuhJP9HK1sKBVkLaerMAq5ECs1fGYGWm with 1 SOL","timestamp":"2025-03-07T07:15:53.427Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T07:15:53.416Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T07:15:53.431Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T07:15:53.431Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:15:55.425Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:15:56.036Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:15:56.648Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:16:03.128Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"8b3bfbb9-b12d-4f47-98f4-616182569378\" } \r\n","level":"error","message":"Test failed: Token Sniper - Transaction Modes","timestamp":"2025-03-07T07:16:08.090Z"}
+{"level":"info","message":"Starting test suite: MEV Bundle","timestamp":"2025-03-07T07:16:08.091Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:16:13.114Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T07:16:18.837Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T07:16:21.579Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 1/5 after 500ms delay","timestamp":"2025-03-07T07:16:22.767Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:16:24.536Z"}
+{"level":"info","message":"Starting test suite: Stagger Bundle","timestamp":"2025-03-07T07:16:24.537Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:16:24.875Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:16:25.220Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:16:31.382Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"2afe6ac6-bc3f-4a1b-b8f8-eb6a82a6e1cb\" } \r\n","level":"error","message":"Test failed: Stagger Bundle - Stagger Bundle Amount Scaling","timestamp":"2025-03-07T07:16:33.285Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:16:39.597Z"}
+{"level":"info","message":"Starting test suite: Wallet Manager","timestamp":"2025-03-07T07:16:41.637Z"}
+{"error":"Unknown file extension \".ts\" for C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\workers\\walletWorker.ts","level":"error","message":"Test failed: Wallet Manager - Wallet Generation","timestamp":"2025-03-07T07:16:41.719Z"}
+{"level":"info","message":"Starting test suite: Blockchain Client","timestamp":"2025-03-07T07:16:42.775Z"}
+{"error":"Simulation failed. \nMessage: Transaction simulation failed: This account may not be used to pay transaction fees. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.","level":"error","message":"Test failed: Blockchain Client - Transaction Sending","timestamp":"2025-03-07T07:16:45.549Z"}
+{"error":"Failed to get token info: Error: Token account not found","level":"error","message":"Test failed: Blockchain Client - Token Balance Management","timestamp":"2025-03-07T07:16:45.903Z"}
+{"error":"failed to get transaction: Transaction version (0) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 0","level":"error","message":"Test failed: Blockchain Client - Transaction History","timestamp":"2025-03-07T07:16:46.593Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 2/5 after 1000ms delay","timestamp":"2025-03-07T07:16:47.725Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"45d62f3e-407d-47ba-b4e5-beae162994e7\" } \r\n","level":"error","message":"Test failed: Blockchain Client - Dashboard Data","timestamp":"2025-03-07T07:16:54.691Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:16:57.275Z"}
+{"level":"info","message":"Starting test suite: Queue Manager","timestamp":"2025-03-07T07:17:04.833Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:17:06.578Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T07:20:37.366Z"}
+{"level":"info","message":"Funding funder Etm1GminjyfyQ9VpqMGvUCLCfhXvjWUu87paxva452Wx with 1 SOL","timestamp":"2025-03-07T07:20:37.378Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T07:20:37.367Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T07:20:37.382Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T07:20:37.383Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:20:46.760Z"}
+{"error":"fetch failed","level":"error","message":"Test failed: Token Sniper - Basic Token Snipe","timestamp":"2025-03-07T07:20:49.138Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:20:50.419Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:20:51.333Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:20:53.305Z"}
+{"level":"info","message":"Starting test suite: MEV Bundle","timestamp":"2025-03-07T07:20:53.305Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:20:56.386Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"84e21af0-7bae-4a1f-8e2a-f811cb508193\" } \r\n","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T07:21:02.814Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 1/5 after 500ms delay","timestamp":"2025-03-07T07:21:06.371Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T07:21:13.563Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:21:14.490Z"}
+{"level":"info","message":"Starting test suite: Stagger Bundle","timestamp":"2025-03-07T07:21:14.490Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:21:15.096Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:21:16.870Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"e09d78bd-e919-408a-a1a7-1f59e517114c\" } \r\n","level":"error","message":"Test failed: Stagger Bundle - Stagger Bundle Timing","timestamp":"2025-03-07T07:21:24.918Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:21:26.847Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"3f0f89b0-95ec-4f02-bbe6-e5c2e04c2cab\" } \r\n","level":"error","message":"Test failed: Stagger Bundle - Stagger Bundle Amount Scaling","timestamp":"2025-03-07T07:21:35.047Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 2/5 after 1000ms delay","timestamp":"2025-03-07T07:21:36.841Z"}
+{"level":"info","message":"Starting test suite: Wallet Manager","timestamp":"2025-03-07T07:21:38.325Z"}
+{"error":"Unknown file extension \".ts\" for C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\workers\\walletWorker.ts","level":"error","message":"Test failed: Wallet Manager - Wallet Generation","timestamp":"2025-03-07T07:21:38.400Z"}
+{"level":"info","message":"Starting test suite: Blockchain Client","timestamp":"2025-03-07T07:21:39.443Z"}
+{"error":"Simulation failed. \nMessage: Transaction simulation failed: This account may not be used to pay transaction fees. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.","level":"error","message":"Test failed: Blockchain Client - Transaction Sending","timestamp":"2025-03-07T07:21:40.767Z"}
+{"error":"Failed to get token info: Error: Token account not found","level":"error","message":"Test failed: Blockchain Client - Token Balance Management","timestamp":"2025-03-07T07:21:41.120Z"}
+{"error":"failed to get transaction: Transaction version (0) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 0","level":"error","message":"Test failed: Blockchain Client - Transaction History","timestamp":"2025-03-07T07:21:41.546Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:21:45.789Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"2e3bcbed-9152-4152-b712-03a11953a7e2\" } \r\n","level":"error","message":"Test failed: Blockchain Client - Dashboard Data","timestamp":"2025-03-07T07:21:49.723Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:21:54.003Z"}
+{"level":"info","message":"Starting test suite: Queue Manager","timestamp":"2025-03-07T07:21:58.065Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Bundle on Bonding Curve","timestamp":"2025-03-07T07:22:00.030Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Token Distribution","timestamp":"2025-03-07T07:22:00.217Z"}
+{"level":"info","message":"Starting test suite: Limit Orders","timestamp":"2025-03-07T07:22:00.219Z"}
+{"error":"Invalid public key input","level":"error","message":"Test failed: Queue Manager - Sell Tokens","timestamp":"2025-03-07T07:22:00.218Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Create Sell Transaction","timestamp":"2025-03-07T07:22:00.219Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Wallet Balance","timestamp":"2025-03-07T07:22:00.219Z"}
+{"level":"info","message":"Funding funder E4F3uGQtf7GDKgm1YSwRRek8JHgVvZJVpXGiue1Q6rz6 with 1 SOL","timestamp":"2025-03-07T07:22:00.221Z"}
+{"level":"info","message":"Starting test suite: Settings","timestamp":"2025-03-07T07:22:00.220Z"}
+{"level":"info","message":"Starting test suite: Security","timestamp":"2025-03-07T07:22:00.220Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 3/5 after 2000ms delay","timestamp":"2025-03-07T07:22:02.111Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:22:08.351Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:22:12.334Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:22:16.563Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:22:20.549Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 1/5 after 500ms delay","timestamp":"2025-03-07T07:22:24.775Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 4/5 after 4000ms delay","timestamp":"2025-03-07T07:22:28.762Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:22:33.523Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:22:42.436Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:22:51.539Z"}
+{"cause":{"code":"UND_ERR_CONNECT_TIMEOUT","name":"ConnectTimeoutError"},"level":"error","message":"Test suite failed: Security fetch failed","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:13484:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async ClientBrowser.callServer (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\node_modules\\@solana\\web3.js\\src\\connection.ts:1675:17)","timestamp":"2025-03-07T07:22:57.656Z"}
+{"cause":{"code":"UND_ERR_CONNECT_TIMEOUT","name":"ConnectTimeoutError"},"level":"error","message":"Test suite failed: fetch failed","stack":"TypeError: fetch failed\n    at node:internal/deps/undici/undici:13484:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async ClientBrowser.callServer (C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\node_modules\\@solana\\web3.js\\src\\connection.ts:1675:17)","timestamp":"2025-03-07T07:22:57.657Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:23:01.537Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 5/5 after 8000ms delay","timestamp":"2025-03-07T07:23:11.510Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:23:32.704Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:23:42.351Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T07:26:58.003Z"}
+{"level":"info","message":"Funding funder H6BrQLYJVbEn73oJvBWvgGYLSAvHFtQMwAsxvtS756ff with 1 SOL","timestamp":"2025-03-07T07:26:58.016Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T07:26:58.003Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T07:26:58.021Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T07:26:58.021Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:27:00.160Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:27:01.091Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:27:02.029Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:27:03.943Z"}
+{"level":"info","message":"Starting test suite: MEV Bundle","timestamp":"2025-03-07T07:27:03.944Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:27:07.082Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"efd4266a-4dc3-4e35-986e-4193712efaf6\" } \r\n","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T07:27:13.790Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:27:19.943Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T07:27:25.121Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:27:27.753Z"}
+{"level":"info","message":"Starting test suite: Stagger Bundle","timestamp":"2025-03-07T07:27:27.753Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:27:28.092Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:27:28.341Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 1/5 after 500ms delay","timestamp":"2025-03-07T07:27:29.566Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"40f468cb-578f-48ad-9111-8a72a3e99fea\" } \r\n","level":"error","message":"Test failed: Stagger Bundle - Stagger Bundle Amount Scaling","timestamp":"2025-03-07T07:27:36.414Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:27:38.291Z"}
+{"level":"info","message":"Starting test suite: Wallet Manager","timestamp":"2025-03-07T07:27:44.776Z"}
+{"error":"Unknown file extension \".ts\" for C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\workers\\walletWorker.ts","level":"error","message":"Test failed: Wallet Manager - Wallet Generation","timestamp":"2025-03-07T07:27:44.855Z"}
+{"level":"info","message":"Starting test suite: Blockchain Client","timestamp":"2025-03-07T07:27:45.892Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:27:46.420Z"}
+{"error":"Simulation failed. \nMessage: Transaction simulation failed: This account may not be used to pay transaction fees. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.","level":"error","message":"Test failed: Blockchain Client - Transaction Sending","timestamp":"2025-03-07T07:27:47.638Z"}
+{"error":"Failed to get token info: Error: Token account not found","level":"error","message":"Test failed: Blockchain Client - Token Balance Management","timestamp":"2025-03-07T07:27:47.991Z"}
+{"error":"failed to get transaction: Transaction version (0) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 0","level":"error","message":"Test failed: Blockchain Client - Transaction History","timestamp":"2025-03-07T07:27:48.413Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 2/5 after 1000ms delay","timestamp":"2025-03-07T07:27:54.451Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"3b79c0e9-a8d9-45cb-ae18-37b3b873c6f7\" } \r\n","level":"error","message":"Test failed: Blockchain Client - Dashboard Data","timestamp":"2025-03-07T07:27:56.575Z"}
+{"level":"info","message":"Starting test suite: Queue Manager","timestamp":"2025-03-07T07:27:59.771Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:28:04.441Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:28:15.089Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Bundle on Bonding Curve","timestamp":"2025-03-07T07:28:15.876Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Token Distribution","timestamp":"2025-03-07T07:28:16.525Z"}
+{"level":"info","message":"Starting test suite: Limit Orders","timestamp":"2025-03-07T07:28:16.527Z"}
+{"error":"Invalid public key input","level":"error","message":"Test failed: Queue Manager - Sell Tokens","timestamp":"2025-03-07T07:28:16.526Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Create Sell Transaction","timestamp":"2025-03-07T07:28:16.527Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Wallet Balance","timestamp":"2025-03-07T07:28:16.527Z"}
+{"level":"info","message":"Starting test suite: Settings","timestamp":"2025-03-07T07:28:16.528Z"}
+{"level":"info","message":"Funding funder GPDMvPhiAutt9zAqRN6QGZGCLUYLvfZtX1NTZNjWVJTH with 1 SOL","timestamp":"2025-03-07T07:28:16.529Z"}
+{"level":"info","message":"Starting test suite: Security","timestamp":"2025-03-07T07:28:16.528Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 3/5 after 2000ms delay","timestamp":"2025-03-07T07:28:25.097Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:28:26.190Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:28:35.130Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:28:35.699Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 1/5 after 500ms delay","timestamp":"2025-03-07T07:28:43.371Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:28:43.901Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:28:52.083Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 4/5 after 4000ms delay","timestamp":"2025-03-07T07:28:52.115Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:29:00.668Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:29:05.070Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 2/5 after 1000ms delay","timestamp":"2025-03-07T07:29:10.639Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:29:15.048Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:29:21.648Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 5/5 after 8000ms delay","timestamp":"2025-03-07T07:29:25.042Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:29:31.301Z"}
+{"level":"warn","message":"RPC rate limit hit, retry 3/5 after 2000ms delay","timestamp":"2025-03-07T07:29:39.522Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:29:41.259Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:29:49.472Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:29:49.737Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T07:33:01.511Z"}
+{"level":"info","message":"Funding funder 8ib9NYX1D1RFVpkfnQKrzTuB3ia6XkJGFHzQpc7MkDt with 1 SOL","timestamp":"2025-03-07T07:33:01.524Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T07:33:01.512Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T07:33:01.528Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T07:33:01.529Z"}
+{"level":"info","message":"Requesting airdrop of 2 SOL for 8ib9NYX1D1RFVpkfnQKrzTuB3ia6XkJGFHzQpc7MkDt","timestamp":"2025-03-07T07:33:01.525Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:33:03.539Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:33:04.793Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:33:05.372Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"c558325f-96a6-48f9-8d7f-75d6a9b6ebb0\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T07:33:10.779Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"edd213e7-fc2e-43a5-8690-7817b29279ba\" } \r\n","level":"error","message":"Test failed: Token Sniper - Transaction Modes","timestamp":"2025-03-07T07:33:16.752Z"}
+{"level":"info","message":"Starting test suite: MEV Bundle","timestamp":"2025-03-07T07:33:16.753Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"98e7d35d-c602-4e65-9c44-0bf2777e15a1\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T07:33:21.743Z"}
+{"error":"fetch failed","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T07:33:30.414Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T07:33:31.677Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:33:32.277Z"}
+{"level":"info","message":"Starting test suite: Stagger Bundle","timestamp":"2025-03-07T07:33:32.277Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:33:32.886Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"01c6cfd3-cbf0-4fc7-b6ec-2c4c9bb742e8\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 3/5 after 4000ms delay","timestamp":"2025-03-07T07:33:33.399Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:33:34.150Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"a0546213-e03d-4e11-be93-d7be62882b97\" } \r\n","level":"error","message":"Test failed: Stagger Bundle - Stagger Bundle Amount Scaling","timestamp":"2025-03-07T07:33:43.951Z"}
+{"error":"fetch failed","level":"warn","message":"Airdrop attempt 1/3 failed, retrying in 1000ms...","timestamp":"2025-03-07T07:33:47.764Z"}
+{"level":"info","message":"Requesting airdrop of 2 SOL for 8ib9NYX1D1RFVpkfnQKrzTuB3ia6XkJGFHzQpc7MkDt","timestamp":"2025-03-07T07:33:48.776Z"}
+{"level":"info","message":"Starting test suite: Wallet Manager","timestamp":"2025-03-07T07:33:54.400Z"}
+{"error":"Unknown file extension \".ts\" for C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\workers\\walletWorker.ts","level":"error","message":"Test failed: Wallet Manager - Wallet Generation","timestamp":"2025-03-07T07:33:54.480Z"}
+{"level":"info","message":"Starting test suite: Blockchain Client","timestamp":"2025-03-07T07:33:55.512Z"}
+{"error":"Simulation failed. \nMessage: Transaction simulation failed: This account may not be used to pay transaction fees. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.","level":"error","message":"Test failed: Blockchain Client - Transaction Sending","timestamp":"2025-03-07T07:33:58.314Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"40503c71-c4af-4567-9b53-f6897f213d67\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T07:33:58.913Z"}
+{"error":"Failed to get token info: Error: Token account not found","level":"error","message":"Test failed: Blockchain Client - Token Balance Management","timestamp":"2025-03-07T07:33:59.505Z"}
+{"error":"failed to get transaction: Transaction version (0) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 0","level":"error","message":"Test failed: Blockchain Client - Transaction History","timestamp":"2025-03-07T07:34:00.862Z"}
+{"error":"Failed to get token info: Error: Token account not found","level":"error","message":"Test failed: Blockchain Client - Dashboard Data","timestamp":"2025-03-07T07:34:03.495Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"b9883f98-5ecc-4c38-b944-e4f638f2d002\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T07:34:09.026Z"}
+{"level":"info","message":"Starting test suite: Queue Manager","timestamp":"2025-03-07T07:34:11.684Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Bundle on Bonding Curve","timestamp":"2025-03-07T07:34:18.031Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Token Distribution","timestamp":"2025-03-07T07:34:18.216Z"}
+{"level":"info","message":"Starting test suite: Limit Orders","timestamp":"2025-03-07T07:34:18.218Z"}
+{"error":"Invalid public key input","level":"error","message":"Test failed: Queue Manager - Sell Tokens","timestamp":"2025-03-07T07:34:18.217Z"}
+{"level":"info","message":"Starting test suite: Settings","timestamp":"2025-03-07T07:34:18.219Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Create Sell Transaction","timestamp":"2025-03-07T07:34:18.217Z"}
+{"level":"info","message":"Starting test suite: Security","timestamp":"2025-03-07T07:34:18.219Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Wallet Balance","timestamp":"2025-03-07T07:34:18.218Z"}
+{"level":"info","message":"Funding funder ApJVrz26H4xvJYbGD2ChS8X2VZxZmCuHqwHfx6j1coxn with 1 SOL","timestamp":"2025-03-07T07:34:18.220Z"}
+{"level":"info","message":"Requesting airdrop of 2 SOL for ApJVrz26H4xvJYbGD2ChS8X2VZxZmCuHqwHfx6j1coxn","timestamp":"2025-03-07T07:34:18.220Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"4146402c-0170-4238-85f4-0c5ba6f72b71\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 3/5 after 4000ms delay","timestamp":"2025-03-07T07:34:19.231Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"c86ed567-cb6a-48d0-bbc1-d75e4eb5df41\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T07:34:26.389Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"ae7f0f92-bf22-4ead-85c0-ad6a0e4da013\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 4/5 after 8000ms delay","timestamp":"2025-03-07T07:34:31.423Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"93402957-14a8-498c-b341-0056eb99be12\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T07:34:35.960Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"81305068-e837-4f8c-ab05-00752f9e23ea\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 3/5 after 4000ms delay","timestamp":"2025-03-07T07:34:47.962Z"}
+{"error":"Operation failed after 5 retries: 429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"73db1b77-465d-45ca-8de0-f005fe189fe6\" } \r\n","level":"warn","message":"Airdrop attempt 2/3 failed, retrying in 2000ms...","timestamp":"2025-03-07T07:34:49.398Z"}
+{"level":"info","message":"Requesting airdrop of 2 SOL for 8ib9NYX1D1RFVpkfnQKrzTuB3ia6XkJGFHzQpc7MkDt","timestamp":"2025-03-07T07:34:51.411Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"7e4de191-c169-42f9-8ed6-d01d34747164\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T07:35:01.557Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"9d27594e-028b-43fb-854f-ead7294ec3cb\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 4/5 after 8000ms delay","timestamp":"2025-03-07T07:35:01.934Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"660ba468-72ed-4f07-8a08-bf1b170103a1\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T07:35:11.841Z"}
+{"error":"Operation failed after 5 retries: 429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"a54c6fe4-da53-4965-8a36-85e2a98be1f4\" } \r\n","level":"warn","message":"Airdrop attempt 1/3 failed, retrying in 1000ms...","timestamp":"2025-03-07T07:35:18.142Z"}
+{"level":"info","message":"Requesting airdrop of 2 SOL for ApJVrz26H4xvJYbGD2ChS8X2VZxZmCuHqwHfx6j1coxn","timestamp":"2025-03-07T07:35:19.157Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"cd6924d6-3b70-4dd7-b57f-478f214e9196\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 3/5 after 4000ms delay","timestamp":"2025-03-07T07:35:22.067Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"baa84f9d-6156-4eaa-9fcb-c7fb1173c46d\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T07:35:27.424Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"6d905725-8beb-4191-9564-3733d4f61dc5\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 4/5 after 8000ms delay","timestamp":"2025-03-07T07:35:34.253Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"76d2fb4a-267c-4c46-8621-4e9c853cc89d\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T07:35:36.655Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"940367eb-a1f1-4d42-9e5c-07486a7e5bea\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 3/5 after 4000ms delay","timestamp":"2025-03-07T07:35:48.673Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T07:39:46.534Z"}
+{"level":"info","message":"Funding funder 8Rx5vmmqMhu3RoENHVhcBDLDEjU5ak1sHoPba3VpBQD3 with 1 SOL","timestamp":"2025-03-07T07:39:46.551Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T07:39:46.535Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T07:39:46.555Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T07:39:46.556Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:39:48.562Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:39:49.171Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:39:49.778Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:39:56.257Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"b8344a06-f959-4bb7-975a-69f6f138579b\" } \r\n","level":"error","message":"Test failed: Token Sniper - Transaction Modes","timestamp":"2025-03-07T07:40:01.198Z"}
+{"level":"info","message":"Starting test suite: MEV Bundle","timestamp":"2025-03-07T07:40:01.198Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:40:06.224Z"}
+{"error":"fetch failed","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T07:40:14.570Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T07:40:15.487Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:40:16.074Z"}
+{"level":"info","message":"Starting test suite: Stagger Bundle","timestamp":"2025-03-07T07:40:16.075Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"082ae5de-02ff-4cae-87d3-88d0b5c3fb93\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T07:40:16.183Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:40:16.675Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:40:17.145Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: Stagger Bundle - Stagger Bundle Amount Scaling","timestamp":"2025-03-07T07:40:17.505Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:40:25.215Z"}
+{"level":"info","message":"Starting test suite: Wallet Manager","timestamp":"2025-03-07T07:40:25.944Z"}
+{"error":"Unknown file extension \".ts\" for C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\workers\\walletWorker.ts","level":"error","message":"Test failed: Wallet Manager - Wallet Generation","timestamp":"2025-03-07T07:40:26.027Z"}
+{"level":"info","message":"Starting test suite: Blockchain Client","timestamp":"2025-03-07T07:40:27.065Z"}
+{"error":"Simulation failed. \nMessage: Transaction simulation failed: This account may not be used to pay transaction fees. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.","level":"error","message":"Test failed: Blockchain Client - Transaction Sending","timestamp":"2025-03-07T07:40:28.518Z"}
+{"error":"Failed to get token info: Error: Token account not found","level":"error","message":"Test failed: Blockchain Client - Token Balance Management","timestamp":"2025-03-07T07:40:28.870Z"}
+{"error":"failed to get transaction: Transaction version (0) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 0","level":"error","message":"Test failed: Blockchain Client - Transaction History","timestamp":"2025-03-07T07:40:29.324Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:40:33.344Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"7ce1172e-9619-4758-ba35-791bd724facb\" } \r\n","level":"error","message":"Test failed: Blockchain Client - Dashboard Data","timestamp":"2025-03-07T07:40:37.489Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"cb12382c-4830-4b4b-8d13-06ef7b61c052\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T07:40:41.565Z"}
+{"level":"info","message":"Starting test suite: Queue Manager","timestamp":"2025-03-07T07:40:45.746Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Bundle on Bonding Curve","timestamp":"2025-03-07T07:40:46.142Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Token Distribution","timestamp":"2025-03-07T07:40:46.332Z"}
+{"level":"info","message":"Starting test suite: Limit Orders","timestamp":"2025-03-07T07:40:46.333Z"}
+{"error":"Invalid public key input","level":"error","message":"Test failed: Queue Manager - Sell Tokens","timestamp":"2025-03-07T07:40:46.332Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Create Sell Transaction","timestamp":"2025-03-07T07:40:46.333Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Wallet Balance","timestamp":"2025-03-07T07:40:46.333Z"}
+{"level":"info","message":"Funding funder 5q6J3EkLTiniCakV1GJEYzKDCY8rJyztc7DnrQaYaQEu with 1 SOL","timestamp":"2025-03-07T07:40:46.335Z"}
+{"level":"info","message":"Starting test suite: Settings","timestamp":"2025-03-07T07:40:46.334Z"}
+{"level":"info","message":"Starting test suite: Security","timestamp":"2025-03-07T07:40:46.334Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:40:52.524Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:40:55.880Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:41:02.489Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:41:05.850Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"9055f4b4-3836-46ce-b0bc-abeb8409cf97\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 3/5 after 4000ms delay","timestamp":"2025-03-07T07:41:12.468Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"cb135686-be45-4f32-8b84-232548033826\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T07:41:15.835Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:41:24.712Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:41:25.067Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:41:32.922Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:41:33.291Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"a36d6d82-7974-4a7e-b176-a7d4bcef941d\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 4/5 after 8000ms delay","timestamp":"2025-03-07T07:41:41.131Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"baaef1da-8580-443b-9921-2a4caafc5f38\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T07:41:41.505Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:41:52.445Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:41:59.119Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:42:02.410Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:42:09.115Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"6d030b62-fa6a-44ad-8073-11c3dc06e27a\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 3/5 after 4000ms delay","timestamp":"2025-03-07T07:42:12.377Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T07:52:43.893Z"}
+{"level":"info","message":"Funding funder DkUQy1hhmeYxcKNZv1Uda7LdMEvcd6KPXYiWZuXfDYpG with 1 SOL","timestamp":"2025-03-07T07:52:43.907Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T07:52:43.894Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T07:52:43.911Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T07:52:43.912Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:52:46.222Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:52:47.146Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:52:47.739Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:52:52.953Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"268f53b9-4256-41a8-8391-01646da75b2f\" } \r\n","level":"error","message":"Test failed: Token Sniper - Transaction Modes","timestamp":"2025-03-07T07:52:59.115Z"}
+{"level":"info","message":"Starting test suite: MEV Bundle","timestamp":"2025-03-07T07:52:59.116Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:53:02.926Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T07:53:09.846Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T07:53:11.347Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"fc389755-e566-49d1-9aa9-c0992160cea1\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T07:53:12.932Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:53:13.986Z"}
+{"level":"info","message":"Starting test suite: Stagger Bundle","timestamp":"2025-03-07T07:53:13.987Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:53:14.324Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T07:53:14.571Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:53:22.055Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"20d293f6-7085-454b-b64c-e562fbb43027\" } \r\n","level":"error","message":"Test failed: Stagger Bundle - Stagger Bundle Amount Scaling","timestamp":"2025-03-07T07:53:22.663Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:53:30.248Z"}
+{"level":"info","message":"Starting test suite: Wallet Manager","timestamp":"2025-03-07T07:53:30.908Z"}
+{"error":"Unknown file extension \".ts\" for C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\workers\\walletWorker.ts","level":"error","message":"Test failed: Wallet Manager - Wallet Generation","timestamp":"2025-03-07T07:53:30.989Z"}
+{"level":"info","message":"Starting test suite: Blockchain Client","timestamp":"2025-03-07T07:53:32.017Z"}
+{"error":"Simulation failed. \nMessage: Transaction simulation failed: This account may not be used to pay transaction fees. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.","level":"error","message":"Test failed: Blockchain Client - Transaction Sending","timestamp":"2025-03-07T07:53:33.360Z"}
+{"error":"Failed to get token info: Error: Token account not found","level":"error","message":"Test failed: Blockchain Client - Token Balance Management","timestamp":"2025-03-07T07:53:33.718Z"}
+{"error":"failed to get transaction: Transaction version (0) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 0","level":"error","message":"Test failed: Blockchain Client - Transaction History","timestamp":"2025-03-07T07:53:34.264Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"e298746e-8ac3-4776-b765-ee2eb9b4b315\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T07:53:38.366Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"7fe04f3d-dd0b-4def-b08d-a8f4c2ea768b\" } \r\n","level":"error","message":"Test failed: Blockchain Client - Dashboard Data","timestamp":"2025-03-07T07:53:42.423Z"}
+{"level":"info","message":"Starting test suite: Queue Manager","timestamp":"2025-03-07T07:53:45.721Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Bundle on Bonding Curve","timestamp":"2025-03-07T07:53:46.406Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Token Distribution","timestamp":"2025-03-07T07:53:47.067Z"}
+{"level":"info","message":"Starting test suite: Limit Orders","timestamp":"2025-03-07T07:53:47.069Z"}
+{"error":"Invalid public key input","level":"error","message":"Test failed: Queue Manager - Sell Tokens","timestamp":"2025-03-07T07:53:47.067Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Create Sell Transaction","timestamp":"2025-03-07T07:53:47.068Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Wallet Balance","timestamp":"2025-03-07T07:53:47.069Z"}
+{"level":"info","message":"Funding funder 6BwLahmSrD1JffLz5eneg7ptbeDxwyr2FGWfa3qURBLh with 1 SOL","timestamp":"2025-03-07T07:53:47.071Z"}
+{"level":"info","message":"Starting test suite: Settings","timestamp":"2025-03-07T07:53:47.069Z"}
+{"level":"info","message":"Starting test suite: Security","timestamp":"2025-03-07T07:53:47.070Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:53:49.326Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:53:56.717Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:53:59.330Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:54:06.683Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"7771e2c5-32cf-401c-a7e7-7a25fdf606a1\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 3/5 after 4000ms delay","timestamp":"2025-03-07T07:54:09.315Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"68345da3-bc1b-4cda-8008-efa69b556aab\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T07:54:16.662Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:54:23.280Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:54:33.279Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:54:33.335Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"c2cec5b2-8f21-40e0-a2c6-3e87300beeee\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 4/5 after 8000ms delay","timestamp":"2025-03-07T07:54:43.240Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:54:43.333Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"ffd36964-52e0-4656-9151-5e0d6d504db7\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T07:54:51.935Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:54:59.456Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T07:55:02.136Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:55:07.643Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T07:55:10.346Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T08:10:50.841Z"}
+{"level":"info","message":"Funding funder 6AnRgUSHEAKaiVFgkJLkUj28xEYv51cyr5AZ4pn2EWiN with 1 SOL","timestamp":"2025-03-07T08:10:50.855Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T08:10:50.844Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T08:10:50.860Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T08:10:50.860Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:10:52.955Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:10:53.561Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:10:54.496Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"30ba1856-13e0-42d3-a003-7f3e59d81925\" } \r\n","level":"error","message":"Test failed: Token Sniper - Transaction Modes","timestamp":"2025-03-07T08:11:05.597Z"}
+{"level":"info","message":"Starting test suite: MEV Bundle","timestamp":"2025-03-07T08:11:05.598Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:11:10.789Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T08:11:16.328Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T08:11:19.088Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:11:20.445Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"ec72726a-344c-4f74-8bdd-57b6a519fb59\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T08:11:28.669Z"}
+{"error":"fetch failed","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Amount Distribution","timestamp":"2025-03-07T08:11:29.623Z"}
+{"level":"info","message":"Starting test suite: Stagger Bundle","timestamp":"2025-03-07T08:11:29.624Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:11:30.069Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:11:30.322Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:11:37.784Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"6a23224c-3fe4-4d36-b7b3-e0003402e279\" } \r\n","level":"error","message":"Test failed: Stagger Bundle - Stagger Bundle Amount Scaling","timestamp":"2025-03-07T08:11:38.406Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:11:45.983Z"}
+{"level":"info","message":"Starting test suite: Wallet Manager","timestamp":"2025-03-07T08:11:46.669Z"}
+{"error":"Unknown file extension \".ts\" for C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\workers\\walletWorker.ts","level":"error","message":"Test failed: Wallet Manager - Wallet Generation","timestamp":"2025-03-07T08:11:46.750Z"}
+{"level":"info","message":"Starting test suite: Blockchain Client","timestamp":"2025-03-07T08:11:47.790Z"}
+{"error":"Simulation failed. \nMessage: Transaction simulation failed: This account may not be used to pay transaction fees. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.","level":"error","message":"Test failed: Blockchain Client - Transaction Sending","timestamp":"2025-03-07T08:11:49.363Z"}
+{"error":"Failed to get token info: Error: Token account not found","level":"error","message":"Test failed: Blockchain Client - Token Balance Management","timestamp":"2025-03-07T08:11:49.714Z"}
+{"error":"failed to get transaction: Transaction version (0) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 0","level":"error","message":"Test failed: Blockchain Client - Transaction History","timestamp":"2025-03-07T08:11:50.323Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"8a605303-2a1c-445d-b9aa-883cd17495e3\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T08:11:54.484Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"7b5ba0af-d0a9-496e-b729-93b59e45f872\" } \r\n","level":"error","message":"Test failed: Blockchain Client - Dashboard Data","timestamp":"2025-03-07T08:12:00.622Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:12:06.148Z"}
+{"level":"info","message":"Starting test suite: Queue Manager","timestamp":"2025-03-07T08:12:11.993Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Bundle on Bonding Curve","timestamp":"2025-03-07T08:12:12.681Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Token Distribution","timestamp":"2025-03-07T08:12:13.343Z"}
+{"level":"info","message":"Starting test suite: Limit Orders","timestamp":"2025-03-07T08:12:13.345Z"}
+{"level":"info","message":"Starting test suite: Settings","timestamp":"2025-03-07T08:12:13.345Z"}
+{"error":"Invalid public key input","level":"error","message":"Test failed: Queue Manager - Sell Tokens","timestamp":"2025-03-07T08:12:13.343Z"}
+{"level":"info","message":"Starting test suite: Security","timestamp":"2025-03-07T08:12:13.345Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Create Sell Transaction","timestamp":"2025-03-07T08:12:13.344Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Wallet Balance","timestamp":"2025-03-07T08:12:13.344Z"}
+{"level":"info","message":"Funding funder GDDnqqnLkuyCBguXUKRwYX652ovLPKAcxN9f4JWHRKmb with 1 SOL","timestamp":"2025-03-07T08:12:13.346Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:12:16.127Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"d88936ae-6610-4caf-b95d-5d9470d72e4a\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 3/5 after 4000ms delay","timestamp":"2025-03-07T08:12:25.408Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:12:26.187Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:12:34.380Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:12:37.649Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"bd284cbf-d219-4111-b31a-d25601af12b2\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T08:12:42.572Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:12:45.863Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:12:52.186Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"f0926db4-4469-49e6-b494-08eebe10a703\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 4/5 after 8000ms delay","timestamp":"2025-03-07T08:12:54.426Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:13:02.145Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"b675931c-37ec-4089-9858-23f4ddaba5f6\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T08:13:12.156Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:13:15.366Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:13:23.782Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:13:24.983Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:13:32.014Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T08:17:03.084Z"}
+{"level":"info","message":"Funding funder 4nfqLVepLiN5UpPi1pTgd6FpEqmi3evtRLgmub59XjhX with 1 SOL","timestamp":"2025-03-07T08:17:03.097Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T08:17:03.085Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T08:17:03.102Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T08:17:03.102Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:17:05.113Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:17:06.113Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:17:06.720Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:17:08.595Z"}
+{"level":"info","message":"Starting test suite: MEV Bundle","timestamp":"2025-03-07T08:17:08.596Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:17:12.156Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"5a44e373-1086-4c06-ac47-98b97ae168bc\" } \r\n","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T08:17:18.418Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:17:22.129Z"}
+{"error":"No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T08:17:29.045Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:17:31.826Z"}
+{"level":"info","message":"Starting test suite: Stagger Bundle","timestamp":"2025-03-07T08:17:31.827Z"}
+{"level":"info","message":"Setting up test environment","timestamp":"2025-03-07T08:19:44.119Z"}
+{"level":"info","message":"Funding funder 7vjPbDivR8QAKd31rfRrmwF6dDUNc9Sg6mrB7BtgS28A with 1 SOL","timestamp":"2025-03-07T08:19:44.135Z"}
+{"level":"info","message":"Test environment setup completed","timestamp":"2025-03-07T08:19:44.120Z"}
+{"level":"info","message":"Starting PortalX test suite","timestamp":"2025-03-07T08:19:44.141Z"}
+{"level":"info","message":"Starting test suite: Token Sniper","timestamp":"2025-03-07T08:19:44.141Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:19:44.752Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:19:45.004Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:19:45.257Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:19:46.053Z"}
+{"level":"info","message":"Starting test suite: MEV Bundle","timestamp":"2025-03-07T08:19:46.054Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:19:52.323Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"04106694-eece-4f83-ab24-815889ffccce\" } \r\n","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Setup","timestamp":"2025-03-07T08:19:54.230Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:20:00.521Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"696e1d13-e7ac-4edc-8e3b-889b78b56a55\" } \r\n","level":"error","message":"Test failed: MEV Bundle - MEV Bundle Timing","timestamp":"2025-03-07T08:20:02.574Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"64dc11b7-3a3b-48db-89b5-0041f3df8a25\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T08:20:08.737Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:20:11.079Z"}
+{"level":"info","message":"Starting test suite: Stagger Bundle","timestamp":"2025-03-07T08:20:11.080Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:20:15.648Z"}
+{"level":"info","message":"Test encountered expected error: No Raydium pool found for token SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt","timestamp":"2025-03-07T08:20:16.589Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:20:18.686Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"c5237085-d15c-4c76-a2de-14afd609f837\" } \r\n","level":"error","message":"Test failed: Stagger Bundle - Stagger Bundle Amount Scaling","timestamp":"2025-03-07T08:20:26.077Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:20:28.655Z"}
+{"level":"info","message":"Starting test suite: Wallet Manager","timestamp":"2025-03-07T08:20:36.543Z"}
+{"error":"Unknown file extension \".ts\" for C:\\Users\\lukeg\\OneDrive\\Desktop\\Bundler\\src\\workers\\walletWorker.ts","level":"error","message":"Test failed: Wallet Manager - Wallet Generation","timestamp":"2025-03-07T08:20:36.622Z"}
+{"level":"info","message":"Starting test suite: Blockchain Client","timestamp":"2025-03-07T08:20:37.651Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"efe4039a-7a71-4b57-a41f-b9257b4872ca\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T08:20:38.643Z"}
+{"error":"Simulation failed. \nMessage: Transaction simulation failed: This account may not be used to pay transaction fees. \nLogs: \n[]. \nCatch the `SendTransactionError` and call `getLogs()` on it for full details.","level":"error","message":"Test failed: Blockchain Client - Transaction Sending","timestamp":"2025-03-07T08:20:40.448Z"}
+{"error":"Failed to get token info: Error: Token account not found","level":"error","message":"Test failed: Blockchain Client - Token Balance Management","timestamp":"2025-03-07T08:20:41.639Z"}
+{"error":"failed to get transaction: Transaction version (0) is not supported by the requesting client. Please try the request again with the following configuration parameter: \"maxSupportedTransactionVersion\": 0","level":"error","message":"Test failed: Blockchain Client - Transaction History","timestamp":"2025-03-07T08:20:42.932Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:20:51.295Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"Too many requests for a specific RPC call\"}, \"id\": \"55b3367f-d90c-489d-b35f-36cafd60e790\" } \r\n","level":"error","message":"Test failed: Blockchain Client - Dashboard Data","timestamp":"2025-03-07T08:20:52.417Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:21:01.270Z"}
+{"level":"info","message":"Starting test suite: Queue Manager","timestamp":"2025-03-07T08:21:02.871Z"}
+{"error":"Funder private key not configured","level":"error","message":"Test failed: Queue Manager - Bundle on Bonding Curve","timestamp":"2025-03-07T08:21:03.852Z"}
+{"error":"bad secret key size","level":"error","message":"Test failed: Queue Manager - Token Distribution","timestamp":"2025-03-07T08:21:04.504Z"}
+{"level":"info","message":"Starting test suite: Limit Orders","timestamp":"2025-03-07T08:21:04.506Z"}
+{"error":"Invalid public key input","level":"error","message":"Test failed: Queue Manager - Sell Tokens","timestamp":"2025-03-07T08:21:04.505Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Create Sell Transaction","timestamp":"2025-03-07T08:21:04.506Z"}
+{"error":"Wallet not found","level":"error","message":"Test failed: Queue Manager - Wallet Balance","timestamp":"2025-03-07T08:21:04.506Z"}
+{"level":"info","message":"Funding funder B64Hfwt95jHJ8ZWsGHLXBVfX2do6nAmCfmLS2ooYp2fU with 1 SOL","timestamp":"2025-03-07T08:21:04.508Z"}
+{"level":"info","message":"Starting test suite: Settings","timestamp":"2025-03-07T08:21:04.507Z"}
+{"level":"info","message":"Starting test suite: Security","timestamp":"2025-03-07T08:21:04.507Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"ded85d1e-eed3-4162-94fe-678badf42269\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 3/5 after 4000ms delay","timestamp":"2025-03-07T08:21:11.262Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:21:13.825Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:21:22.037Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:21:23.500Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"a5ec812b-32e1-4b09-8475-8a8f6b600bb8\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 1/5 after 1000ms delay","timestamp":"2025-03-07T08:21:30.255Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:21:31.710Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:21:39.487Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"834f6c7f-6d64-4ed9-8a2f-5ed70f8c7e0d\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 4/5 after 8000ms delay","timestamp":"2025-03-07T08:21:39.921Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:21:48.477Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:21:57.923Z"}
+{"error":"429 Too Many Requests:  {\"jsonrpc\":\"2.0\",\"error\":{\"code\": 429, \"message\":\"You've either reached your airdrop limit today or the airdrop faucet has run dry. Please visit https://faucet.solana.com for alternate sources of test SOL\"}, \"id\": \"c9b4a8ad-eb61-441f-aa09-7e4184151bc1\" } \r\n","level":"warn","message":"Operation failed (rate limit), retry 2/5 after 2000ms delay","timestamp":"2025-03-07T08:21:58.453Z"}
+{"level":"warn","message":"Airdrop retry 2/3","timestamp":"2025-03-07T08:22:11.105Z"}
+{"level":"warn","message":"Airdrop retry 1/3","timestamp":"2025-03-07T08:22:20.270Z"}
